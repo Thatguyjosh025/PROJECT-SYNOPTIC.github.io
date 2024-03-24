@@ -1,0 +1,99 @@
+body{
+    background: #c1e0f9;
+    margin: auto;
+  }
+  .logo{
+    color: #4ca6f0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20px;
+  }
+  .previous-round {
+    background-color: rgb(238, 241, 245);
+    text-align: center;
+    color: black;
+    height: 20px;
+    width: 20px;
+    margin-top: 10px;
+    margin-left: 15px;
+    border-radius: 50px;
+  }
+  .previous-round:hover{ 
+    background-color: #a4d2f8;
+    cursor: pointer
+  }
+  .signup-container{
+    background-color: rgb(238, 241, 245);
+    border: none;
+    justify-content: center;
+    width: 400px;
+    margin-top: 50px;
+    margin: auto;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 0 2px 25px rgba(89, 89, 90, 0.2);
+    margin-top: 5%;
+  }
+  .signup-container h1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 50px;
+    font-size:x-large;
+    font-weight: 600;
+    font-family:  'Poppins', sans-serif;
+  }
+  p{
+    margin-left: 50px;
+    font-size: smaller;
+  }
+  hr{
+    margin-bottom: 20px;
+    width: 360px;
+  }
+  label{
+    margin-left: 55px;
+    font-family:  'Poppins', sans-serif;
+    font-size: small;
+  }
+  input{
+    font-size: 13px;
+    display: block;
+    background-color: #b7d6f1a6;
+    font-family:  'Poppins', sans-serif;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px 1px;
+    border: none;
+    border-bottom: 2 solid #0a0a0a;
+    outline: none;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+  }
+  .signbtn {
+    font-size: 13px;
+    background-color: #a4d2f8;
+    display: block;
+    font-family: 'Rubik', sans-serif;
+    margin-left: 130px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 150px;
+    padding: 10px 1px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0 4px 2px -2px rgb(181, 179, 179);
+    outline: none;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    cursor: pointer;
+  }
+  .signbtn:hover {
+    background-color: #c0d1df;
+  }
+
+     
